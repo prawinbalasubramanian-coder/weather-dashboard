@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#EAB308" />
+    </linearGradient>
+  </defs>
+  <!-- Sun -->
+  <circle cx="26" cy="24" r="14" fill="url(#sunGrad)" />
+  <!-- Sun Rays -->
+  <path d="M26 4v4M26 40v4M6 24h4M42 24h4M12 10l3 3M37 35l3 3M12 38l3-3M37 13l3-3" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Cloud -->
+  <path d="M22 46h24a12 12 0 0 0 2-23.8 15 15 0 0 0-28.5-3.2A11 11 0 0 0 22 46z" fill="url(#cloudGrad)" opacity="0.9" />
+  <!-- Pulse / Bolt -->
+  <path d="M34 38l-4 8h6l-3 8 7-9h-5l3-7z" fill="url(#boltGrad)" />
+</svg>

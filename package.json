@@ -1,0 +1,40 @@
+{
+  "name": "weatherpulse-workspace",
+  "version": "1.0.0",
+  "description": "WeatherPulse – Real-Time Weather Dashboard (Full-Stack React + Node.js/Express)",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "start:backend": "node backend/server.js",
+    "build": "npm run build --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "install:all": "npm install"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.1.1"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "weather",
+    "full-stack",
+    "vite",
+    "weatherpulse"
+  ],
+  "author": "College Project",
+  "license": "MIT"
+}
